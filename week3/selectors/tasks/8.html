@@ -12,7 +12,11 @@
 
         <main class="global-results">
             <style>
-                /* ваш код здесь... */
+                a[href^='//']:not([href*='my-site.ru']),
+                a[href^='http://']:not([href*='my-site.ru']),
+                a[href^='http://']:not([href*='my-site.ru/about']){
+                    color: #ff6698;
+                }
             </style>
 
             <section class="global-result">
