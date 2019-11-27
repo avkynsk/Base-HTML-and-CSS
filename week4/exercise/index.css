@@ -1,3 +1,4 @@
+@import "fonts.css";
 /*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
 body
 {
@@ -22,7 +23,7 @@ body
 .header__info
 {
     float: left;
-
+    text-align: center;
     box-sizing: border-box;
     width: 200px;
     padding: 25px 10px;
@@ -33,24 +34,32 @@ body
 .header__weather
 {
     float: right;
-
+    
     width: 200px;
 }
 
 .header__weather-title
 {
     margin: 0;
+    font-family: Space mono, monospace;
+    font-size: 1.17em;
+    text-align: center;
 }
 
 .header__weather-text
 {
     margin: 0;
+    text-align: justify;
+    font-size: .8rem;
+    line-height: 117%;
 }
 
 .header__title
 {
     overflow: visible;
-
+    font-family: Title, fantasy;
+    font-size: 5rem;
+    text-align: center;
     margin: 0;
 }
 
@@ -67,8 +76,8 @@ body
 .sub-header__copyright
 {
     display: inline-block;
-
     margin: 0 30px;
+    font-size: 0.6em;
 }
 
 .sub-header__price
@@ -88,6 +97,8 @@ body
 {
     margin-top: 0;
     margin-bottom: 10px;
+    font: 3.2em Six Caps, sans-serif;
+    font-weight: bold;
 }
 
 .article__help
@@ -101,18 +112,37 @@ body
 {
     margin-top: 10px;
     margin-bottom: 4px;
+    text-align: justify;
+    text-indent: 2ex;
+    font-size: .8em;
+    font-style: italic;
 }
 
 .article__author
 {
     display: block;
-
+    font-weight: bold;
+    font-size: .8em;
+    text-align: center;
     margin-top: 10px;
+}
+
+.article__content {
+    font-size: .8em;
+    text-align: justify;
+    text-indent: 2ex;
+}
+
+.article__content p {
+    margin: 0;
 }
 
 .article__continue
 {
     display: block;
+    font-size: .8em;
+    font-style: italic;
+    text-align: center;
 }
 
 .article__image
@@ -128,10 +158,34 @@ body
     margin: 10px 0 5px 10px;
 }
 
+.article__image-caption {
+    font-size: .8em;
+    text-decoration: underline;
+}
+
 .article__subtitle
 {
     margin: 10px 0;
+    font: 1.17em TimesNewRoman;
+    font-weight: bold;
+    text-align: center;
 }
+
+.article__title_font_racing {
+    font: bold 2em Racing Sans One, sans-serif;
+    
+}
+
+.article__title_font_farsan {
+    font: italic bold 2.3em Farsan, sans-serif;
+}
+
+.multicolumn 
+.article__content p{
+    column-count: 2;
+    column-gap: 15px;
+}
+
 
 /*––––––––––––––––––Блок главной фотографии–––––––––*/
 .main-photo__wrapper
@@ -147,11 +201,19 @@ body
 .main-photo__title
 {
     margin: 0;
+    font-weight: bold;
 }
 
 .main-photo__desc
 {
     margin-bottom: 20px;
+    font-size: .8em;
+}
+
+.main-photo__caption {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: .7em;
 }
 
 /*––––––––––––––––––Линия разделения––––––––––––––––*/
