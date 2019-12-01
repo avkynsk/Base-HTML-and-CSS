@@ -78,6 +78,11 @@
     
     width: 100px;
     height: 36px;
+
+    animation-name: ship;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .ship_smokestack {
@@ -117,16 +122,29 @@
 .smoke-1 {
     top: -25px;
     right: 44px;
+
+    animation-name: smoke-1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
 
 .smoke-2 {
     top: -25px;
     right: 42px;
+
+    animation-name: smoke-2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
 }
 
 .smoke-3 {
     top: -25px;
     right: 49px;
+    animation-name: smoke-2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 2s;
 }
 
 .sun {
