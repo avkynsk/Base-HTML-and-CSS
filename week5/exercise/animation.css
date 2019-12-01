@@ -80,3 +80,36 @@
         opacity: 0;
     }
 }
+
+@keyframes cloud-1{
+    0% {
+        transform: translate(-100px) scale(-.3, .3);
+    }
+    100%{
+        transform: translate(600px) scale(-.3, .3);
+    }
+}
+@keyframes cloud-2{
+    0% {
+        transform: translate(-200px) scale(.6, .6);
+    }
+    50%, 100%{
+        transform: translate(800px) scale(.6, .6);
+    }
+}
+@keyframes cloud-3{
+    0% {
+        transform: translate(-50px) scale(-.8, .8);
+    }
+    75%, 100%{
+        transform: translate(900px) scale(-.8, .8);
+    }
+}
+@keyframes cloud-4{
+    0% {
+        transform: translate(-100px) scale(.45, .45);
+    }
+    90%, 100%{
+        transform: translate(700px) scale(.45, .45);
+    }
+}

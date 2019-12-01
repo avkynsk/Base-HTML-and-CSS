@@ -141,6 +141,7 @@
 .smoke-3 {
     top: -25px;
     right: 49px;
+
     animation-name: smoke-2;
     animation-iteration-count: infinite;
     animation-duration: 3s;
@@ -267,18 +268,37 @@
 
 .cloud-1 {
     top: 10px;
+
+    animation-name: cloud-1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 60s;
 }
 
 .cloud-2 {
     top: 50px;
+
+    animation-name: cloud-2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 55s;
 }
 
 .cloud-3 {
     top: 100px;
+    
+    animation-name: cloud-3;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 30s;
 }
 
 .cloud-4 {
     top: 170px;
+    animation-name: cloud-4;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 53s;
 }
 
 .sea {
